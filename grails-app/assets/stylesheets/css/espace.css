@@ -1,0 +1,142 @@
+.dividerEvenement {
+    border-top: 1px solid rgba(246, 240, 240, 0.95);
+
+}
+
+.pasEvenement {
+
+    text-align: center;
+    line-height: 200px;
+    color: grey;
+}
+
+
+.cal-calendar .ui-datepicker table.ui-datepicker-calendar tr td a {
+    width: 38px;
+
+}
+
+
+.datepicker table tr td.old, .datepicker table tr td.new {
+    color: #dcdcdc;
+}
+
+.tacheDescription{
+    color: inherit;
+}
+
+
+
+.custom-radio-icon {
+
+    margin: 0 !important;
+    width: 25px !important;
+    height: 25px !important;
+
+}
+
+.custom-radio-icon .custom-control-label {
+
+    width: 25px !important;
+    height: 25px !important;
+    border: 13px solid #d5d8de;
+}
+
+.etiquette {
+
+    margin-top: 5px;
+
+}
+
+textarea {
+    background-color: white !important;
+}
+
+
+
+.jour{
+
+    border-right: solid 1px lightgray;
+
+}
+
+
+.tache{
+    border-radius: 5px;
+
+}
+
+
+
+
+@media only screen and (min-width: 320px) {
+
+    .card-body {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .col-md-6, col-sm-12 {
+        padding: 1em;
+    }
+
+    .cal-notes ul {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .cal-notes {
+        margin-left: 0px;
+
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+
+    .col-md-6, col-sm-12 {
+        padding: 2em;
+    }
+
+    .card-body {
+        padding: 0px;
+    }
+
+    .cal-notes {
+
+        overflow-y: scroll;
+        min-height: 426px !important;
+        max-height: 426px !important;
+        /*border: 1px solid lightgray;*/
+        margin-left: -52px;
+    }
+
+}
+
+
+@media only screen and (min-width: 992px) {
+
+
+    .col-md-6, col-sm-12 {
+        padding: 2em;
+    }
+
+    .card-body {
+        padding: 0px;
+    }
+
+    .cal-notes {
+
+        overflow-y: scroll;
+        min-height: 513px !important;
+        max-height: 513px !important;
+        margin-left: -52px;
+    }
+
+}
+
+
+
+

@@ -1,0 +1,75 @@
+
+.table tr th .custom-control, .table tr td .custom-control {
+    padding: 4px;
+    vertical-align: middle;
+    margin-right: -12px;
+}
+
+
+
+
+@media print {
+
+    div.dataTables_wrapper div.dataTables_filter input {
+        display: none;
+    }
+
+    body {
+        height: 0px !important;
+    }
+
+    .noPrint {
+        display: none;
+    }
+
+    .navbar, .noPrint, .btn {
+        display: none !important;
+        height: 0px !important;
+    }
+}
+
+
+
+
+
+th {
+    font-weight: bold !important;
+}
+
+
+.indicator-value-counter {
+    font-size: 18px;
+}
+
+.chartjs-tooltip-key {
+    border-radius: 5px;
+    height: 5px;
+    width: 5px
+}
+
+
+
+table.dataTable > tbody > tr.child span.dtr-title {
+    font-size: 12px;
+}
+
+
+
+th {
+    font-size: 12px !important;
+}
+
+.datepicker table tr td span {
+    font-size: 12px !important;
+}
+
+
+
+.center {
+   /*
+
+   text-align: center;
+
+   */
+}
+

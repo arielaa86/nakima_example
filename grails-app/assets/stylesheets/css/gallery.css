@@ -1,0 +1,18 @@
+.gallery-container .item {
+
+    min-height: 230px !important;
+    max-height: 230px !important;
+
+}
+
+.imagen {
+
+    min-height: 230px !important;
+    max-height: 230px !important;
+    object-fit: cover;
+}
+
+
+td a{
+    cursor: default;
+}

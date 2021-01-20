@@ -1,0 +1,112 @@
+
+.card {
+    box-shadow: 0 0px 0 rgba(0, 0, 0, 0.0);
+}
+
+
+.navbar-brand {
+
+    width: 246px !important;
+    background-size: 246px 36px !important;
+}
+
+#logout {
+    outline: 0;
+}
+
+.mai-scroller-notifications {
+
+    height: auto !important;
+}
+
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+    height: 8px !important;
+    width: 8px !important;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+.menu {
+    text-align: center !important;
+    width: 10px;
+}
+
+.dropdown-item {
+    color: black !important;
+}
+
+.noSorting:after {
+    content: none !important;
+}
+
+.noSorting:before {
+    content: none !important;
+}
+
+
+#cssmenu {
+    position: fixed;
+    top: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 2;
+
+    filter: drop-shadow(0px 5px 2px rgba(0, 0, 0, 0.3));
+
+}
+
+
+@media only screen and (min-width: 767px) {
+    body {
+        margin-top: 12em;
+        height: auto;
+
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        margin-top: 7em;
+        height: auto;
+    }
+
+    .mai-nav-tabs-sub {
+
+        height: auto;
+
+    }
+}
+
+.custom-select {
+    line-height: 1.2;
+    padding: 5px 5px 5px 11px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+
+
+.row-divider{
+    height: 60px;
+    border-left-style: hidden;
+    border-right-style: hidden;
+}
+
+
+@media (max-width: 767.98px) {
+    .mai-nav-tabs-sub .dropdown-menu .dropdown-item {
+        padding-left: 56px;
+        color: #a2a2a2!important;
+    }
+}
+
+
